@@ -1,0 +1,228 @@
+body {
+    background-color: #518CCA;
+}
+
+.main-body-left {
+    position: relative;
+    align-content: last baseline;
+    margin-right: 140px;/* Same width as the sidebar + right position in px */
+    font-size: 28px;/* Increased text to enable scrolling */
+    padding: 0px 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.main-body-right {
+    position: relative;
+    align-content: last baseline;
+    margin-left: 150px;/* Same width as the sidebar + left position in px */
+    font-size: 28px;/* Increased text to enable scrolling */
+    padding: 0px 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.sidebar-right {
+    width: 130px;
+        position: fixed;
+        z-index: 1;
+        top: 90px;
+        right: 10px;
+        background: #e23636;
+        overflow-x: hidden;
+        padding: 8px 0;
+        border-radius: 16px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.sidebar-left {
+    width: 140px;
+    position: fixed;
+    z-index: 1;
+    top: 100px;
+    left: 10px;
+    background: #e23636;
+    overflow-x: hidden;
+    padding: 8px 0;
+    border-radius: 16px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;    
+}
+
+.sidebar-img {
+    padding: 6px 8px 6px 16px
+}
+
+.button {
+    aspect-ratio: auto;
+    background-color: #504a4a;
+    flex: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: block;
+    position: relative;
+    margin-right: 33px;
+}
+
+.button-2 {
+    background-color: #504a4a;
+    margin-top: 0;
+    margin-right: 33px;
+    padding-left: 15px;
+}
+
+.w-button {
+    padding-top: 9px;
+    padding-left: 15px;
+    padding-bottom: 9px;
+    padding-right: 15px;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+}
+.side-button {
+    aspect-ratio: auto;
+    background-color: #504a4a;
+    flex: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    position: relative;
+    padding-top: 6px;
+    padding-left: 10px;
+    padding-bottom: 6px;
+    padding-right: 10px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    width: fit-content;
+    border-radius: 8px;
+}
+
+
+.navBar {
+    background-color: #e23636;
+    border-radius: 0;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+
+
+.image {
+    display: inline;
+}
+
+.gif {
+    position: relative;
+    max-width: 100%;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    clip-path: inset(65px 0px 65px 0px);
+}
+
+.text-with-image {
+    position: relative;
+    align-content: last baseline;
+    margin-right: 140px; /* Same width as the sidebar + left position in px */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+}
+
+.text-with-image img {
+    float: left; /* Float the image to the left */
+    margin-right: 20px; /* Create space between the image and text */
+}
+
+
+
+.container {
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    position: relative;
+    align-content: last baseline;
+    margin-right: 140px; /* Same width as the sidebar + right position in px */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Create a stacked column */
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Style the images */
+.column img {
+    max-width: 100%; /* Ensure images don't exceed their container */
+    height: auto; /* Maintain aspect ratio */
+    margin: 10px; /* Add some space between images */
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: center;
+}
+
+.card {
+    flex: 0 0 200px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card img {
+    width: fit-content;
+    height: 400px; /* Set a fixed height for consistency */
+    object-fit: cover; /* Maintain aspect ratio */
+}
+
+.card .text {
+    color: aliceblue;
+    padding: 20px;
+    text-align: center;
+    flex-grow: 1; /* Allow the text section to expand */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.card .text>.button-2 {
+    background: #504a4a;
+    border: 0;
+    color: aliceblue;
+    padding: 10px;
+    width: 100%;
+    text-decoration: none; /* Remove underline */
+}
+.button-3 {
+    background-color: #504a4a;
+    margin-top: 0;
+}
+
+.trailer-button {
+    padding-top: 9px;
+    padding-left: 15px;
+    padding-bottom: 9px;
+    padding-right: 15px;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+}
+p {
+    text-indent: 45px;
+}
